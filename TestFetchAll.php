@@ -12,7 +12,7 @@ foreach ($customers as $row) {
   var_dump($row);
 }
 
-var_dump($customers);
+// var_dump($customers);
 var_dump($customers[0]["name"]);
 
 $connection = null;
